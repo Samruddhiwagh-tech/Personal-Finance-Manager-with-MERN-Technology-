@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+🏦 Personal Finance Manager - Frontend 💰
+A modern and user-friendly personal finance management web app built using React and Bootstrap.
+ Overview:
+This project aims to provide an easy-to-use platform for tracking daily expenses and managing personal finances efficiently. This repository contains the frontend part of the project, developed with React.js and Bootstrap.
+Features:
+✅ Login & Registration Page – User authentication UI
+✅ Profile Avatar Selection – Choose a profile picture
+✅ Expense Management Page – Add transactions
+✅ Responsive UI – Clean and interactive design
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Getting Started
 
-## Available Scripts
+To set up and run the frontend locally in VS Code, follow these steps:
+1️⃣ Check Node.js Version
 
-In the project directory, you can run:
+Ensure Node.js is installed:
 
-### `npm start`
+npm -v
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2️⃣ Create a New React App
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Create a React project named personal-finance-manager:
 
-### `npm test`
+npx create-react-app personal-finance-manager
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3️⃣ Navigate to the Project Directory
 
-### `npm run build`
+cd personal-finance-manager
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4️⃣ Install Dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Install React Bootstrap and Bootstrap for styling:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm install react-bootstrap bootstrap
 
-### `npm run eject`
+5️⃣ Start the Development Server
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Run the project on localhost:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+6️⃣ Open in Browser
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Your app will be available at:
+http://localhost:3000/
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Tech Stack: Frontend: React.js, Bootstrap, HTML, CSS
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🎯 Future Enhancements
+Since your current project focuses only on the frontend, here’s a more detailed breakdown of what you can add in the future:
+ Add backend functionality
+Integrate user authentication
+Improve UI with animations and dark mode
+🔹 Current Status: Right now, your app only has a frontend, meaning all the data (expenses, user profiles, etc.) is lost when you refresh the page.
 
-### Code Splitting
+🔹 Future Enhancement: You can integrate a backend to store and retrieve data permanently using:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    Node.js & Express.js (for backend API)
+    MongoDB / MySQL (for database storage)
+    🔹 Example Backend Features:
+✅ Store user expenses in a database
+✅ Fetch expense history when the user logs in
+✅ Secure the data with authentication
+🔹 Current Status: Right now, there is no authentication. Anyone can access the app.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🔹 Future Enhancement: You can allow users to log in and manage their own data instead of showing the same data to everyone.
+✅ Forgot Password option (for password reset)
+✅ Secure sessions (so users don’t get logged out immediately)
