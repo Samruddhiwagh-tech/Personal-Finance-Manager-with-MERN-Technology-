@@ -55,15 +55,16 @@ Improve UI with animations and dark mode
 🔹 Current Status: Right now, your app only has a frontend, meaning all the data (expenses, user profiles, etc.) is lost when you refresh the page.
 
 🔹 Future Enhancement: You can integrate a backend to store and retrieve data permanently using:
+ Node.js & Express.js (for backend API)
+MongoDB / MySQL (for database storage)
 
-    Node.js & Express.js (for backend API)
-    MongoDB / MySQL (for database storage)
-    🔹 Example Backend Features:
+ 🔹 Example Backend Features:
 ✅ Store user expenses in a database
 ✅ Fetch expense history when the user logs in
 ✅ Secure the data with authentication
 🔹 Current Status: Right now, there is no authentication. Anyone can access the app.
 
 🔹 Future Enhancement: You can allow users to log in and manage their own data instead of showing the same data to everyone.
+
 ✅ Forgot Password option (for password reset)
 ✅ Secure sessions (so users don’t get logged out immediately)
