@@ -12,7 +12,7 @@ Frontend:
 
 ✔️ Login & Registration Page – User authentication UI
 ✔️ Profile Avatar Selection – Choose a profile picture
-✔️ Expense Management Page – Add, view, and delete transactions
+✔️ Expense Management Page – Add, view transactions
 ✔️ Responsive UI – Clean and interactive design
 Backend:
 
