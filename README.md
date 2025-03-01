@@ -89,35 +89,6 @@ mongod
 
 node server.js
 
-6️⃣ Test API using Postman
-
-    Open Postman and test http://localhost:5001/api/register with user details.
-    Test http://localhost:5001/api/expenses to add expenses.
-
-📌 Backend API Endpoints
-User Registration (POST)
-
-URL: /api/register
-Body:
-
-{
-  "email": "user@example.com",
-  "phone": "1234567890",
-  "name": "John Doe",
-  "password": "securepassword"
-}
-
-Add Expense (POST)
-
-URL: /api/expenses
-Body:
-
-{
-  "date": "2025-02-25",
-  "title": "Groceries",
-  "category": "Food",
-  "amount": 500
-}
 
 🎯 Future Enhancements
 
